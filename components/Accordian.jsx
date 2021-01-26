@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { FiPLus, FiMinus } from "react-icons/fi";
 import { IconContext } from "react-icons";
+import { FiPLus, FiMinus } from "react-icons/fi";
 
 import { missionData } from "../fixtures/MissionData";
 import { launchData } from "../fixtures/LaunchData";
