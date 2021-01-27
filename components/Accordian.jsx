@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
@@ -36,6 +36,8 @@ const Wrap = (props) => {
 
 const Accordian = (props) => {
   const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {}, []);
 
   const toggle = (index) => {
     if (clicked === index) {
