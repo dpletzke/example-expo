@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   accordian: {
-    felx: 1,
+    flex: 1,
+    backgroundColor: '#2E0854',
     flexDirection: 'column'
   }
 });
